@@ -51,6 +51,14 @@ You can use React Native's built-in command line interface to generate a new pro
 npx react-native init DriverIDonPurse
 ```
 
+Navigate to ios foldes and run
+
+```sh
+cd ios
+pod install
+cd ..
+```
+
 Run instructions for iOS:
     • cd "/Users/sergiogomes/Documents/Workfolder/react-native-app-driving-school/DriverIDonPurse" && npx react-native run-ios
     - or -
@@ -87,3 +95,5 @@ npx react-native run-ios
 You should see your new app running in the iOS Simulator shortly.
 
 npx react-native run-ios is one way to run your app. You can also run it directly from within Xcode.
+
+Within Xcode open the DriverIDonPurse.xcworkspace file.
